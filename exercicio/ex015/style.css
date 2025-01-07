@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: darkred;
+    background-color: rgb(66, 238, 180);
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: darkviolet;
+    font-size: 24px;
+    font-style: oblique;
+}

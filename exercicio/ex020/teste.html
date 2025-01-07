@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+
+
+</head>
+<style>
+    .bloco {
+        display: block;
+        background-color: lightblue;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    .inline {
+        display: inline;
+        background-color: lightgreen;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .inline-bloco {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        margin: 10px;
+    }
+
+    .oculto {
+        display: none;
+    }
+
+    div > p :hover{
+            display: block;
+            color: white;
+            background-color: red;
+           
+        }
+
+ 
+
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+
+    .flex-item {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+    }
+
+  
+
+    
+
+
+</style>
+</head>
+<body>
+<div class="bloco">Elemento de bloco</div>
+<span class="inline">Elemento inline</span>
+<span class="inline">Outro elemento inline</span>
+<div class="inline-bloco">Inline-block 1</div>
+<div class="inline-bloco">Inline-block 2</div>
+<div class="oculto">Este texto não será exibido
+    <p>Passe o mouse</p>
+</div>
+<div class="flex-container">
+    <div class="flex-item">Item Flex 1</div>
+    <div class="flex-item">Item Flex 2</div>
+    <div class="flex-item">Item Flex 3</div>
+</div>
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+</div>
+</body>
+</html>
